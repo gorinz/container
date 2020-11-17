@@ -1,0 +1,21 @@
+{
+    "name": "gorin/container",
+    "description": "Simple, fast container",
+    "homepage": "https://github.com/gorinz/container",
+    "type": "library",
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gorin\\Container\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gorin",
+            "email": "gorinmilkman@gmail.com"
+        }
+    ]
+}
